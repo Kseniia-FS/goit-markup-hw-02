@@ -1,0 +1,152 @@
+/* main text color #212121 */
+/* second text color #757575*/
+/* third text color #FFFFFF */
+/* first background color #E5E5E5 */
+/* second background color #F5F4FA */
+/* hero background color #2F303A */
+/* accent color #2196F3 */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+
+  --accent-color: #2196f3;
+  --logo-text-color: #000000;
+
+  --white-color: #ffffff;
+
+  --bgc-hero-footer: #2f303a;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+/* Логотип */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
+
+  width: 145px;
+  height: 31px;
+
+  color: var(--logo-text-color);
+}
+
+.web-logo {
+  color: var(--accent-color);
+
+  text-decoration: none;
+}
+
+.logo-footer {
+  color: var(--white-color);
+}
+
+/* Главная навигация */
+
+.nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  line-height: 1.14;
+  color: var(--primery-text-color);
+
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-adrs {
+  color: #757575;
+
+  text-decoration: none;
+
+  font-style: normal;
+}
+
+.nav-adrs:hover,
+.nav-adrs:focus {
+  color: var(--accent-color);
+}
+
+/* Футтер */
+
+.footer {
+  background-color: var(--bgc-hero-footer);
+
+  font-style: normal;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--white-color);
+}
+
+/* Кнопка */
+.button {
+  font-family: 'Roboto', serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+
+  height: 38px;
+
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+.buttton-hero {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+}
+
+.button:active,
+.button:focus,
+.button:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.current {
+  color: var(--accent-color);
+}

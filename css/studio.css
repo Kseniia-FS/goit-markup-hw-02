@@ -1,0 +1,54 @@
+/* Герой */
+/* Уточнить цвет background color */
+.hero {
+  background-color: var(--bgc-hero-footer);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  color: var(--white-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Блок с преимуществами */
+
+.advanteges > title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--primery-text-color);
+}
+
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.about-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+
+  text-align: center;
+}
+
+/* Наша команда */
+
+.name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.name-p {
+  color: var(--secondary-text-color);
+}
