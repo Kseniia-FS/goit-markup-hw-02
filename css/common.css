@@ -71,6 +71,10 @@ body {
 }
 
 .nav-adrs {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   color: #757575;
 
   text-decoration: none;
@@ -120,6 +124,7 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
 
 .button:active,
